@@ -81,7 +81,7 @@ header {
     justify-content: center;
     align-items: center;
 }
-edyghg
+
 .main-heading {
     width: 80%;
 }
@@ -191,7 +191,7 @@ edyghg
     padding-top: 32px;
 }
 
-.start-leardning-container {
+.start-learning-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -229,9 +229,9 @@ edyghg
     color: rgb(160, 158, 158);
 }
 
-.SL-card a:hover {
+.SL-card:hover {
     transform: scale(0.95, 0.95);
-    transition: transform 200ms ease-in-out;
+    /* transition: transform 200ms ease-in-out; */
 }
 
 /******************* THESIS EXHIBIT *****************/
