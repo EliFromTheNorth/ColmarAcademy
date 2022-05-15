@@ -1,0 +1,308 @@
+html {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/******************* HEADER ***********************/
+
+header {
+    display: flex;
+    height: 64px;
+    justify-content: space-between;
+    }
+
+.logo-whole {
+    display: flex;
+    height: 32px;
+    margin-top: 10px;
+   
+}
+
+.logo-lion {
+    margin-left: 24px;
+}
+
+.name {
+    position: relative;
+    top: -0.5rem;
+    text-transform: uppercase;
+    color: gray;
+}
+
+.name .logo-strong {
+    color: black;
+}
+
+.nav {
+    padding-right: 24px;
+}
+
+.nav ul {
+    display: flex;
+    margin-right: 24px;
+}
+.nav ul li {
+    display: flex;   
+    margin-left: 16px;
+}
+
+.nav ul li a {
+    color:black;
+    text-decoration: none;
+}
+.nav ul li a:hover {
+    color: gray;
+    }
+
+
+
+
+/**************** BANNER *********************/
+
+.banner {
+    background-color: rgba(212, 211, 211, 0.838);
+    display: flex;
+    height: 30rem;
+}
+
+.banner-picture {
+    width: 60%;
+    margin: 32px 24px;
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    color: rgb(102, 102, 102);
+    justify-content: center;
+    align-items: center;
+}
+
+.main-heading {
+    width: 80%;
+}
+
+.banner-caption {
+    width: 80%;
+}
+
+.banner-btn {
+    background-color: rgb(72, 72, 72);
+    color: rgb(204, 204, 204);
+    width: 30%;
+    text-align: center;
+    margin-top: 5rem;
+    border: 2px solid rgb(204, 204, 204);
+    padding: 1em 0;
+    }
+
+.banner-btn:hover {
+   
+}
+
+/********************* CARDS *******************/
+
+.cards {
+    display: flex;
+}
+
+.card1 {
+    width: 50%;
+    margin: 32px 24px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.img-card1 img {
+    /* width: 60%;
+    margin: 32px 24px; */
+}
+
+.text-card1 {
+    padding-right: 5rem;
+    color: rgb(72, 72, 72);
+}
+
+.card1 h1 {
+    color: rgb(72, 72, 72)
+}
+
+.reference-card1 {
+    color: rgb(188, 188, 188)
+}
+
+/******************* SMALL CARDS *****************/
+.small-cards {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    
+    }
+
+   .card2, .card3, .card4 {
+       display: flex;
+       border-left: 1px solid rgb(72, 72, 72);
+   }
+   
+   .img-card {
+       margin: 16px;
+       margin-top: 0;
+       width: 35%;
+   }
+
+    .text-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+         }
+    
+    .text-card a {
+        color: rgb(51, 136, 189);
+        font-weight: bold;
+    }
+
+    .text-card a:hover {
+        color: rgb(152, 204, 237);
+    }
+
+    .card3 {
+        padding-top: 16px;
+    }
+
+    .card4 {
+        background-color: rgba(212, 211, 211, 0.838);
+        border: none;
+        padding-top: 16px;
+    }
+
+
+/******************* START LEARNING *****************/
+
+  .start-learning  {
+      background-color: rgba(212, 211, 211, 0.838);
+      margin-top: 32px;
+  }
+
+  .start-learning h1 {
+    text-align: center;
+    padding-top: 32px;
+}
+
+.start-leardning-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 32px 72px;
+}
+
+.SL-card {
+    background-color: white;
+    width: 27%;
+    margin: 24px;
+    
+}
+
+.SL-card img {
+    width: 100%;
+}
+
+.SL-card h3 {
+    margin-left:10px;
+}
+
+.SL-card h4 {
+    margin-left:10px;
+    text-transform: uppercase;
+    color: rgb(160, 158, 158);
+}
+
+.SL-card h3 a:hover {
+   color: rgb(160, 158, 158);
+   font-weight: bold;
+}
+
+.SL-card p {
+    margin-left:10px;
+    color: rgb(160, 158, 158);
+}
+
+/******************* THESIS EXHIBIT *****************/
+
+.thesis-exhibit h1 {
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 16px;
+}
+
+.thesis-container {
+    display: flex;
+    margin-bottom: 62px;
+    padding-top: 24px;
+    /* border: 2px solid darkcyan; */
+    
+}
+
+.video-thesis-container {
+    width: 50%;
+    margin-left: 24px;
+    
+}
+
+.video-thesis-container p,  .video-thesis-container h3 {
+    width: 90%;
+}
+            
+.thesis-small-cards {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.thesis-small-cards img {
+    width: 35%;
+    margin: 16px;
+}
+
+.thesis-small-cards a:hover {
+    color: rgb(160, 158, 158);
+}
+
+.thesis-card1,
+.thesis-card2 {
+    display: flex;
+    flex-direction:row;
+    margin-bottom: 24px;
+    align-items: center;
+}
+
+.thesis-small-card-text {
+    width: 80%;
+    padding-left: 10px;
+}
+
+.thesis-card1 {
+    background-color: rgba(212, 211, 211, 0.838);
+}
+
+/******************* FOOTER *****************/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(160, 158, 158);
+    color: rgb(160, 158, 158);
+    font-size: 12px;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
