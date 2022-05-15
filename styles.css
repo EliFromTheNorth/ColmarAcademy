@@ -1,6 +1,6 @@
 html {
     font-size: 16px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
 
@@ -58,9 +58,7 @@ header {
 }
 .nav ul li a:hover {
     color: gray;
-    }
-
-
+     }
 
 
 /**************** BANNER *********************/
@@ -72,7 +70,7 @@ header {
 }
 
 .banner-picture {
-    width: 60%;
+    width: 52%;
     margin: 32px 24px;
 }
 
@@ -99,11 +97,14 @@ header {
     text-align: center;
     margin-top: 5rem;
     border: 2px solid rgb(204, 204, 204);
+    border-radius: 10px;
     padding: 1em 0;
     }
 
 .banner-btn:hover {
-   
+    font-weight: bold;
+    transform: scale(0.95, 0.95);
+    transition: transform 50ms ease-in-out;
 }
 
 /********************* CARDS *******************/
@@ -119,11 +120,6 @@ header {
     flex-direction: column;
     
     
-}
-
-.img-card1 img {
-    /* width: 60%;
-    margin: 32px 24px; */
 }
 
 .text-card1 {
@@ -143,13 +139,12 @@ header {
 .small-cards {
     display: flex;
     flex-direction: column;
-    margin-top: 24px;
-    
-    }
+    margin-top: 32px;
+     }
 
    .card2, .card3, .card4 {
        display: flex;
-       border-left: 1px solid rgb(72, 72, 72);
+       border-left: 1px solid rgba(212, 211, 211, 0.838);
    }
    
    .img-card {
@@ -234,6 +229,11 @@ header {
     color: rgb(160, 158, 158);
 }
 
+.SL-card a:hover {
+    transform: scale(0.95, 0.95);
+    transition: transform 200ms ease-in-out;
+}
+
 /******************* THESIS EXHIBIT *****************/
 
 .thesis-exhibit h1 {
@@ -246,7 +246,6 @@ header {
     display: flex;
     margin-bottom: 62px;
     padding-top: 24px;
-    /* border: 2px solid darkcyan; */
     
 }
 
