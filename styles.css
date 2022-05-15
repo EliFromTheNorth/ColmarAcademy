@@ -28,11 +28,17 @@ header {
     margin-left: 24px;
 }
 
+.logo-lion img {
+    width: 150%;
+}
+
 .name {
     position: relative;
     top: -0.5rem;
     text-transform: uppercase;
     color: gray;
+    margin-left: 12px;
+    font-size: 18px;;
 }
 
 .name .logo-strong {
